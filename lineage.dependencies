@@ -1,6 +1,6 @@
 [
   {
-    "repository": "android_device_motorola_sm6150-common",
-    "target_path": "device/motorola/sm6150-common"
+    "repository": "device_motorola_sm4250-common",
+    "target_path": "device/motorola/sm4250-common"
   }
 ]

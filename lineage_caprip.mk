@@ -18,17 +18,17 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from odessa device
-$(call inherit-product, device/motorola/odessa/device.mk)
+# Inherit from caprip device
+$(call inherit-product, device/motorola/caprip/device.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_odessa
-PRODUCT_DEVICE := odessa
+PRODUCT_NAME := lineage_caprip
+PRODUCT_DEVICE := caprip
 PRODUCT_BRAND := motorola
-PRODUCT_MODEL := moto g(9) plus
+PRODUCT_MODEL := moto g(30)
 PRODUCT_MANUFACTURER := motorola
 
 PRODUCT_AAPT_CONFIG := xxxhdpi

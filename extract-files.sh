@@ -14,8 +14,8 @@ fi
 
 set -e
 
-export DEVICE=odessa
-export DEVICE_COMMON=sm6150-common
+export DEVICE=caprip
+export DEVICE_COMMON=sm4250-common
 export VENDOR=motorola
 
 "./../../${VENDOR}/${DEVICE_COMMON}/extract-files.sh" "$@"

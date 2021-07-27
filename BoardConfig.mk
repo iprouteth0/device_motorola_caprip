@@ -14,9 +14,9 @@
 # limitations under the License.
 #
 
--include device/motorola/sm6150-common/BoardConfigCommon.mk
+-include device/motorola/sm4250-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/motorola/odessa
+DEVICE_PATH := device/motorola/caprip
 
 # Display
 TARGET_SCREEN_DENSITY := 420
@@ -25,7 +25,7 @@ TARGET_SCREEN_DENSITY := 420
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Kernel
-TARGET_KERNEL_CONFIG := vendor/odessa_defconfig
+TARGET_KERNEL_CONFIG := vendor/caprip_defconfig
 
 # Kernel modules - Audio
 TARGET_MODULE_ALIASES += \
